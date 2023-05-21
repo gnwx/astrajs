@@ -4,10 +4,10 @@ const Feature = ({ feature }) => {
   return (
     <div
       className={` bg-mainBGnpm i react-toggle-dark-mode
-      npm i react-toggle-dark-mode
+      mx-4 react-toggle-dark-mode
 
       shadow-md dark:bg-darkMode dark:border dark:border-description dark:rounded-md 
-      flex flex-col-reverse   mx-auto max-w-[1100px]  gap-5 md:gap-32 px-8 py-10 md:flex-row items-center justify-between  my-40    ${
+      flex flex-col-reverse   md:mx-auto max-w-[1100px]  gap-5 md:gap-32 px-8 py-10 md:flex-row items-center justify-between  my-40    ${
         feature.id % 2 !== 0 ? "md:flex-row-reverse " : "flex "
       }  `}
     >
